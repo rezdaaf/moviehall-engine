@@ -94,6 +94,9 @@ Create new movie hall
 ### `PUT` /api/movie_hall/{id}
 Update movie hall by id
 
+#### Request Params
+1. id `int` : movie hall id
+
 #### Request Body
 1. name `string` `optional` : movie hall name
 2. active `boolean` `optional` : is the hall active
@@ -230,6 +233,9 @@ Create new seat
 
 ### `PUT` /api/seat/{id}
 Update seat by id
+
+#### Request Params
+1. id `int` : seat id
 
 #### Request Body
 1. hallId `string` `optional` : associated movie hall id
